@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: auto;
+}
+.one{
+    background-color: darkslateblue;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.flag{
+    width: 10%;
+    height: 10%;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    padding: 20px 50px;
+    background-color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 40px;
+}
+h2{
+    
+    font-size: 2em;
+    color: white;
+    margin-top: 20px;
+}
+.left-side{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.right-side{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+img{
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+}
+.player{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
